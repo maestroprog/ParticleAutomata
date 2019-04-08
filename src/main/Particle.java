@@ -6,14 +6,14 @@ import java.util.Set;
 public class Particle {
 
     public int type;
-    public float x;
-    public float y;
-    public float sx;
-    public float sy;
+    public double x;
+    public double y;
+    public double sx;
+    public double sy;
     public int links;
     public Set<Particle> bonds;
 
-    public Particle(int type, float x, float y) {
+    public Particle(int type, double x, double y) {
         this.type = type;
         this.x = x;
         this.y = y;
